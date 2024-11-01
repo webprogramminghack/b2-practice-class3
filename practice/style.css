@@ -1,0 +1,14 @@
+footer {
+  background-color: #53389e;
+  padding: 30px 0;
+}
+
+.copyright .container {
+  padding-top: 32px;
+  border-top: 1px solid #7f56d9;
+}
+
+.copyright p {
+  color: #d6bbfb;
+  text-align: center;
+}

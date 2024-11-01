@@ -1,0 +1,41 @@
+.box1 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  z-index: 2;
+}
+
+.box2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  z-index: 1;
+}
+
+.scope {
+  position: relative;
+  z-index: -1;
+  top: -80px;
+}
+
+.scope .box3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  z-index: 100;
+}
+
+.scope .box4 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  z-index: 101;
+}
